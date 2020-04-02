@@ -1,0 +1,21 @@
+{
+	"file": "https://raw.githubusercontent.com/ajiwahyu/upset/master/otu_table_16S_merged_site_o_taxa.csv",
+	"name": "OTU_table_site_merged",
+	"header": 0,
+	"separator": ",",
+	"skip": 0,
+	"meta": [
+		{ "type": "id", "index": 0, "name": "OTU" },
+		{ "type": "string", "index": 1, "name": "Kingdom" },
+		{ "type": "string", "index": 2, "name": "Phylum" },
+		{ "type": "string", "index": 3, "name": "Class" },
+		{ "type": "string", "index": 4, "name": "Order" },
+		{ "type": "string", "index": 5, "name": "Family" },
+		{ "type": "string", "index": 6, "name": "Genus" },
+		{ "type": "string", "index": 7, "name": "Spesies" },
+		{ "type": "integer", "index": 15, "name": "Total" }
+	],
+	"sets": [
+		{ "format": "binary", "start": 8, "end": 14 }
+	]
+}
